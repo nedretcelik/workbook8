@@ -26,7 +26,7 @@ function addUser() {
   fetch("http://localhost:3000/users/", requestInit)
     .then((response) => response.json())
     .then((user) => {
-      console.log("Succesfully added");
+      showMessage("Successfully added");
     });
 }
 
